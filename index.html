@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ignacio Riveros Urrutia - Portafolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Estilos personalizados */
+        .developer-photo {
+            max-width: 200px;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .form-control:focus {
+            box-shadow: none;
+            border-color: #007bff;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+        .btn-primary:hover {
+            background-color: #0069d9;
+            border-color: #0062cc;
+        }
+
+        /* Fuentes personalizadas */
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        /* Colores personalizados */
+        .bg-dark {
+            background-color: #212529 !important;
+        }
+
+        .text-white {
+            color: #fff !important;
+        }
+
+        .btn-primary {
+            color: #fff;
+        }
+
+        /* Tamaños personalizados */
+        .display-4 {
+            font-size: 3.5rem;
+        }
+
+        .lead {
+            font-size: 1.25rem;
+        }
+
+        /* Utilización de clases de Bootstrap */
+        .container {
+            max-width: 960px;
+        }
+
+        .row {
+            margin-right: -15px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Portafolio de Desarrollador</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#certificados">Certificados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section id="inicio" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="foto.jpg.jpeg" alt="Foto del desarrollador" class="img-fluid rounded-circle developer-photo">
+                </div>
+                <div class="col-md-6">
+                    <h1 class="display-4">¡Hola! Soy Ignacio Riveros</h1>
+                    <p class="lead">Acerca de mi.</p>
+                    <p>Soy un profesional altamente motivado con una sólida ética de trabajo y la capacidad para trabajar en equipo. Mi experiencia en diferentes roles me ha permitido desarrollar una amplia gama de habilidades transferibles que puedo aplicar en cualquier posición. Me apasiona aprender y adaptarme a nuevos desafíos, y siempre estoy buscando oportunidades para crecer tanto personal como profesionalmente. Mi objetivo es aportar valor y hacer una diferencia positiva en cualquier organización a la que me una.</p>
+                    <a class="btn btn-primary btn-lg" href="https://linkedin.com/in/ignacioriverosurrutia/" role="button">Ver mi perfil de LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificados" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Mis Certificados</h2>
+            <div class="row row-cols-1 row-cols-md-3">
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <img src="certificado1.jpg.jpg" class="card-img-top" alt="Certificado 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Certificado de Hipertrofia Muscular</h5>
+                            <p class="card-text">Evento que congregó a expertos de renombre en el campo del fitness y la ciencia del ejercicio. Se abordaron temas innovadores relacionados con el desarrollo muscular, desde la planificación del entrenamiento hasta las últimas investigaciones en nutrición deportiva. Ponentes como Brad Schoenfeld y Layne Norton compartieron sus conocimientos sobre la optimización del entrenamiento para la hipertrofia, mientras que otros, como Jeremy Loenneke, actualizaron sobre la fisiología de la hipertrofia muscular.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <img src="certificado2.jpg.jpg" class="card-img-top" alt="Certificado 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Certificado Magister en Entrenamiento Deportivo</h5>
+                            <p class="card-text">Programa orientado a especialistas que sean capaces de gestionar procesos de evaluación, planificación y retroalimentación en el ámbito deportivo, con el propósito de mejorar el rendimiento físico y psicológico en diversas disciplinas deportivas, considerando contexto, nivel y grupo etario.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <img src="certificado3.jpg.jpg" class="card-img-top" alt="Certificado 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Certificado de Licenciado en Educación. Profesor de Educación Media en Educación Física</h5>
+                            <p class="card-text">La Universidad busca formar profesionales en Educación Física, deporte, salud y recreación, alineados con los estándares del Ministerio de Educación y las demandas actuales en la formación docente. Los graduados pueden trabajar en educación, deportes, municipalidades y clubes. Además, se recuerda a los postulantes verificar los requisitos de la Ley Carrera Docente 20.903 para carreras de Pedagogía.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contacto</h2>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <form>
+                        <div class="form-group">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo electrónico</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea class="form-control" id="mensaje" rows="3" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="bg-dark text-white py-3">
+    <div class="container text-center">
+        <p>Derechos de Autor &copy; Ignacio Riveros Urrutia. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn"></script>
+</body>
+</html>
+
